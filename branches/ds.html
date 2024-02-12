@@ -6,18 +6,18 @@
     <title>CSE [ Data Science ]</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='branch.css'>
-    <script src='main.js'></script>
+    <script src='../main.js'></script>
 </head>
 <body class="bg-gradient-to-r from-emerald-300 to-green-300">
     <h1 class="text-indigo-800 text-5xl py-6 px-6 font-extrabold text-center items-center justify-center">Welcome To Section Of CSE [ Data Science ]</h1>
     <div class="text-3xl py-6 px-6 font-semibold">
         Please Select The Type Of Examination :
     </div>
-    <div class="flex mt-10">
-        <div class="w-40 h-12 ml-80 bg-white rounded-lg px-9 py-2 text-xl font-semibold">
+    <div class=" sm:flex mt-10 sm:flex-wrap justify-between">
+        <div onclick="navigateToExam('dsmakeup')" class="mx-auto h-12 mb-10  sm:ml-auto min-w-fit max-w-fit bg-white rounded-lg px-9 py-2 text-xl font-semibold">
             Make-Up
         </div>
-        <div class="w-40 h-12 ml-48 bg-white rounded-lg px-10 py-2 text-xl font-semibold">
+        <div onclick="navigateToExam('dsregular')" class=" mx-auto h-12 flex-col  sm:mx-auto  min-w-fit max-w-fit bg-white rounded-lg px-10 py-2 text-xl font-semibold">
             Regular
         </div>
     </div>
