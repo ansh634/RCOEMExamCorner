@@ -1403,6 +1403,11 @@ video {
     margin-right: 24rem;
   }
 
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .xl\:mt-12 {
     margin-top: 3rem;
   }
