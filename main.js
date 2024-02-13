@@ -5,3 +5,7 @@ function navigateToBranch(branch) {
 function navigateToExam(examType) {
     window.location.href = `../exams/${examType}.html`;
 }
+
+function redirectToExternalLink(link) {
+    window.location.href = link;
+}
