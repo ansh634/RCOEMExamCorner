@@ -569,6 +569,16 @@ video {
   margin-bottom: 1rem;
 }
 
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -645,8 +655,8 @@ video {
   height: 12rem;
 }
 
-.w-10\/12 {
-  width: 83.333333%;
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-16 {
@@ -667,10 +677,6 @@ video {
 
 .w-auto {
   width: auto;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
 }
 
 .min-w-fit {
